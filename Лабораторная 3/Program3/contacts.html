@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> </head>
+
+<body>
+    <header>
+        <div class="menu"> <img style="float:left;  margin-right:10px;" src="pictures/logo.png"> <a href="index.html">Главная</a> <a href="catalog.html">Каталог</a> <a href="contacts.html">Контакты</a> </div>
+        <hr size=5 color=#008CDF> </header>
+    <h1>Напишите нам</h1>
+    <form action="#">
+        <fieldset>
+            <label for="name"> Введите имя</label>
+            <br>
+            <input type="text" id="name" placeholder="Иван" maxlength="10" minlength="2" autocomplete="off" required>
+            <br>
+            <br>
+            <label for="email">Введите email</label>
+            <br>
+            <input type="email" id="email" placeholder="ivan@mail.ru" required>
+            <br>
+            <br>
+            <label for="phone">Номер телефона</label>
+            <br>
+            <input type="tel" id="phone" placeholder="+7 960 547 32 68" autocomplete="off">
+            <br>
+            <br>
+            <label for="theme">Тема обращения</label>
+            <br>
+            <input type="text" id="theme" autocomplete="off" required>
+            <br>
+            <br>
+            <label>Текст обращения</label>
+            <br>
+            <textarea id="area" cols="50" rows="10" name="text" required></textarea>
+            <br>
+            <input type="submit" id="send"> </fieldset>
+    </form>
+    <h2>Адрес</h2>
+    <p>Наш телефон: +7 914 545 55 35
+        <br>Наш офис находится: Эстония, Pärnjõe, 87620 Pärnu maakond
+        <br>email: index.mail@yandex.ru
+        <br>Мы работаем с 08:00 до 21:00</p>
+    <h3>Вы можете найти нас на карте</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1038.344977010843!2d24.925697385962586!3d58.6343797979899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ecdb94209709c5%3A0xae94f3d1be3b6d46!2zVMO2w7Zrb2phLCBQw6RybmrDtWUsIDg3NjIwIFDDpHJudSBtYWFrb25kLCDQrdGB0YLQvtC90LjRjw!5e0!3m2!1sru!2sru!4v1600368633323!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <footer>
+        <hr size=3 color=#008CDF>
+        <p>&copy Все права защищены</p>
+    </footer>
+</body>
+
+</html>
